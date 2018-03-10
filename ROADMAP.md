@@ -1,6 +1,7 @@
 # PathoCV Roadmap
 
-## Insert introduction here
+## Insert introduction here... coming soon
+###### DEADLINE: 22.03.2018
 
 ### What has to be done?
 
@@ -14,6 +15,7 @@ Within this document you will find detailed milestones completed and still in pr
 
 #### Milestone: First steps
 - Analyse first Test images: lesion size in relation to leaf area
+###### DEADLINE: 20.03.2018
 
 #### Milestone: Taking it further
 - Analyse multiple leaves in one image
