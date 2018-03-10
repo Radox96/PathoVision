@@ -13,10 +13,10 @@ Within this document you will find detailed milestones completed and still in pr
 - Create Installation instructions for PlantCV on  AWS Cloud9
 
 #### Milestone: First steps
-- Analyze first Test images: lesion size in relation to leaf area
+- Analyse first Test images: lesion size in relation to leaf area
 
 #### Milestone: Taking it further
-- Analyze multiple leaves in one image
+- Analyse multiple leaves in one image
 
 ###### Further milestones will be added along the road
 
