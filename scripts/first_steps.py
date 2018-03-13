@@ -1,11 +1,10 @@
 #import required packages 
 import sys, traceback
-import cv2 as cv
-import numpy as np
-import plantcv as pcv
+import cv2
 import argparse
 import string
-
+import numpy as np
+import plantcv as pcv
 
 ### Parse command-line arguments
 def options():
@@ -18,13 +17,3 @@ def options():
     args = parser.parse_args()
     return args
     
-### Main pipeline
-def main():
-    # Get options
-    args = options()
-
-    # Read image
-    img, path, filename = pcv.readimage(args.image)
-
-    # Pipeline step
-    device = 0
