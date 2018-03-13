@@ -34,7 +34,7 @@ def read_img(path):
     path = '/github/PathoCV/test_img/test_001.JPG'
     #actual img import
     im = cv.imread(path, 1)
-    #converte to grayscale
+    #convert to grayscale
     gray_img = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
         
         #write converted img 
