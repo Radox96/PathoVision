@@ -1,10 +1,11 @@
 #import required packages 
 import sys, traceback
-import cv2
-import argparse
-import string
+import cv2 as cv
 import numpy as np
 import plantcv as pcv
+import argparse
+import string
+
 
 ### Parse command-line arguments
 def options():
