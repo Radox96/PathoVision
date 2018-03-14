@@ -1,16 +1,21 @@
-import cv2
+import cv2 as cv
 import numpy as np
+import plantcv as pcv
 
 #define image path
 path = "/github/PathoCV/test_img/test_001.JPG"
+print(path)
 
-print(path) 
+#loading image
+image = cv.imread(path, 1)
+
+cv.imshow('test', image)
 
 
-#load image
-#im = cv2.imread(path, 0)
+
+
 #cv2.imshow('image', im)
-#cv2.waitKey(0) 
+#cv2.waitKey(0)
 #cv2.destroyAllWindows()
 #convert to grayscale (already done with above addition of ",0")
 #imgray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
