@@ -20,8 +20,6 @@ def options():
     return args
 
 #import image 
-import os
-
 #check wether given img path is correct
 def read_img(path):
     str -> np.ndarray
