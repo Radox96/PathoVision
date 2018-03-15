@@ -1,4 +1,4 @@
-# PathoVision
+<img src="https://github.com/Radox96/PathoVision/blob/master/PathoVision.png" width="500"/>
 
 ## What is PathoVision going to be you might ask...
 
