@@ -10,6 +10,10 @@ PathoCV is a Python 2.7 based coding project that uses OpenCV [(2018)](https://g
 - plant growth
 - percentual size of lesions on leaves
 
+and other features will be added along the way.
+
+If you have any suggestions or ideas of your own, contribution to our project is highly welcome.
+
 
 
 
