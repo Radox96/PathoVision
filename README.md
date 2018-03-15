@@ -2,9 +2,11 @@
 
 ## What is PathoCV going to be you might ask...
 
-With PathoCV we want to make Computer Vision analysis of ....... available and easy to use for you.
+The aim of the project is to develop a small phenotyping set-up for Arabidopsis thaliana plants to assess disease symptoms. We want it to be based on a Raspberry Pi with a camera and a plant-specific computer vision (CV) software. Finally we want to correlate occurring disease symptoms after bacterial infection with the respective bacterial titers within the plant.
 
-PatthoCV is a Python 2.7 based coding project that uses OpenCV [(2018)](https://github.com/opencv/opencv) and PlantCV [(2016)](https://github.com/danforthcenter/plantcv/blob/master/LICENSE) for fast and effective analysis of for example:
+With PathoCV we want to make Computer Vision analysis of disease symptoms available and easy to use for you.
+
+PathoCV is a Python 2.7 based coding project that uses OpenCV [(2018)](https://github.com/opencv/opencv) and PlantCV [(2016)](https://github.com/danforthcenter/plantcv/blob/master/LICENSE) for fast and effective analysis of for example:
 - plant growth
 - percentual size of lesions on leaves
 
