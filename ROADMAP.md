@@ -1,4 +1,4 @@
-# PathoCV Roadmap
+# PathoVision Roadmap
 
 The aim of the project is to develop a small phenotyping set-up for Arabidopsis thaliana plants to assess disease symptoms. We want it to be based on a Raspberry Pi with a camera and a plant-specific computer vision (CV) software. Finally we want to correlate occurring disease symptoms after bacterial infection with the respective bacterial titers within the plant.
 
