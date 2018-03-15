@@ -19,25 +19,21 @@ def options():
     args = parser.parse_args()
     return args
 
-#import image 
-#check wether given img path is correct
-def read_img(path):
-    str -> np.ndarray
-    if os.path.isfile(path):
-        return cv2.imread(path)
-    else:
-        raise ValueError('Path provided is not a valid file: {}'.format(path))
+### Main pipeline
+def main():
+    # Get options
+    args = options()
+
+    # Read image
+    img, path, test = pcv.readimage(args.image)
+
+    debug=args.debug 
+
+    # Pipeline step
+    device = 0
     
-    #define img-path
-    path = '/github/PathoCV/test_img/test_001.JPG'
-    #actual img import
-    im = cv.imread(path, 1)
-    #convert to grayscale
-    gray_img = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-        
-        #write converted img 
-        cv2.imwrite('image_grey.jpg', grey_image)
-        #display converted img
-        cv2.imshow('greyscale', image_grey.jpg
+    
+    
+
 
 #End of code 
