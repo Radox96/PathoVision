@@ -1,7 +1,7 @@
 <img src="https://github.com/Radox96/PathoVision/blob/master/PathoVisionRoadmap.png" width="500"/>
 The aim of the project is to develop a small phenotyping set-up for Arabidopsis thaliana plants to assess disease symptoms. We want it to be based on a Raspberry Pi with a camera and a plant-specific computer vision (CV) software. Finally we want to correlate occurring disease symptoms after bacterial infection with the respective bacterial titers within the plant.
 
-With PathoCV we want to make Computer Vision analysis of disease symptoms available and easy to use for you.
+With PathoVision we want to make Computer Vision analysis of disease symptoms available and easy to use for you.
 
 PathoVision is a Python 2.7 based coding project that uses OpenCV [(2018)](https://github.com/opencv/opencv) and PlantCV [(2016)](https://github.com/danforthcenter/plantcv/blob/master/LICENSE) for fast and effective analysis of for example:
 - plant growth
