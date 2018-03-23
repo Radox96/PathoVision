@@ -19,3 +19,17 @@ After this we can retrieve the needed packages:
 - pip install python-dateutil
 - pip install --no-cache-dir scikit-image
 - pip install --no-cache-dir scipy
+
+Having retrieved the required packages now we are able to install OpenCV via the following command:
+- conda install -c menpo opencv=2.4.11
+
+This will take some time and require a few inputs from you.
+
+And at last we are going to install PlantCV as follows:
+First we are going to clone the GitHub Repository into our project folder:
+- git clone https://github.com/danforthcenter/plantcv.git
+Then changeing our working directory into the new plantcv folde with:
+- cd plantcv
+
+And in the end starting the installation with this command:
+- python2 setup.py install
