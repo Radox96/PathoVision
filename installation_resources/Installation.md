@@ -29,6 +29,7 @@ And at last we are going to install PlantCV as follows:
 
 First we are going to clone the GitHub Repository into our project folder:
 - git clone https://github.com/danforthcenter/plantcv.git
+
 Then changeing our working directory into the new plantcv folde with:
 - cd plantcv
 
