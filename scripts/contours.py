@@ -24,7 +24,7 @@ im2, contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX
 #draw contours 
 cv.drawContours(imgray, contours, -1, (0,255,0), 3)
 #wirte image 
-cv.imwrite("testresult5.jpg", imgray)
+cv.imwrite("testresult2.jpg", imgray)
 
 #End of Code
 
